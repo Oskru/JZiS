@@ -50,6 +50,10 @@ table + tr:nth-child(1) {
   background-color: gray;
 }
 
-span {
+div#second span {
+  text-decoration: underline;
+}
 
+div.example { 
+  color: red;
 }
