@@ -2,6 +2,16 @@ body {
   background-color: #bfe7be;
 }
 
+h1 {
+  color: aqua;
+  font-size: 1.2rem;
+  justify-content: center;
+}
+
+h2::first-letter {
+  font-size: 1.5rem;
+}
+
 h2 {
   background: #4dbc49;
 }
@@ -29,4 +39,17 @@ h3::after {
 
 table, td {
   border: 2px solid violet;
+}
+
+p > q {
+  font-style: italic;
+  color: lightcoral;
+}
+
+table + tr:nth-child(1) {
+  background-color: gray;
+}
+
+span {
+
 }
