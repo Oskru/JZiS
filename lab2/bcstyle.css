@@ -1,0 +1,28 @@
+body {
+  background-color: #bfe7be;
+}
+
+h2 {
+  background: #4dbc49;
+}
+
+h3 {
+  background: #f0a4f0;
+}
+
+form {
+  background: indigo;
+  border: 2px solid orange;
+}
+
+div#tytul {
+  border: 10px groove red;
+}
+
+h2::before {
+  border: pink;
+}
+
+h3::after {
+  border: blueviolet;
+}
