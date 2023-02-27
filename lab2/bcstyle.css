@@ -26,3 +26,7 @@ h2::before {
 h3::after {
   border: blueviolet;
 }
+
+table, td {
+  border: 2px solid violet;
+}
