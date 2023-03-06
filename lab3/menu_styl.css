@@ -26,15 +26,40 @@ div#menu ul {
   margin: 0;
   padding: 0;
   width: 7em;
+  background-color: #bfb;
+  border: 1px solid black;
 }
 
 div#menu ul li {
+  margin: 0;
   position: relative;
   list-style: none;
+  border-bottom: 1px solid #999;
+}
+
+div#menu ul li:hover {
+  background-color: #6c6;
+}
+
+div#menu li.podmenu {
+  background: url(strzalka.gif) 95% 55% no-repeat;
 }
 
 div#menu ul ul {
   left: 7em;
   position: absolute;
   top: 0;
+}
+
+div#menu ul li.podmenu ul > ul {
+  display: none;
+}
+
+div#menu ul li.podmenu:hover > ul {
+  display: block;
+}
+
+div#menu a {
+  padding: 2px 0 2px 0;
+  text-decoration: none;
 }
